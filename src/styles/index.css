@@ -1,12 +1,63 @@
+/* Estilos CSS */
+.timer-container {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-color: #282c34; */ /* Comentario o elimina esta línea para quitar el fondo negro */
+  color: white;
+  font-family: Arial, sans-serif;
+}
 
-/* 
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.icon-box {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-*/
+.counter-container {
+  display: flex;
+  justify-content: center;
+}
+
+.counter-box {
+  border: 2px solid white;
+  padding: 10px; /* Ajusta el padding según tus necesidades */
+  margin: 0 5px; /* Espacio entre los contadores */
+}
+
+.clock-icon {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.controls button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+  margin: 0 5px; /* Ajusta el margen según tus necesidades */
+  transition: color 0.3s ease-in-out;
+}
+
+.controls button:hover {
+  color: lightgrey;
+}
